@@ -1,7 +1,7 @@
 # 2D Wavetank Coupled With a Sloping Beach
 This repository contains the source code for a **coupled numerical wavetank (NWT)** that links a potential-flow solver for deep water with a nonlinear shallow-water solver for the nearshore region. The two models are coupled through an interface, enabling efficient simulations of the full life cycle of waves—from generation by a wavemaker, to shoaling, breaking, and dissipation on a sloping beach.
 
-## Simulation instructions
+## ⚙️ Simulation instructions
 - Set the simulation parameters in `settings.py`.
 - Adjust the length of the dry beach through the coefficient `margin` in the main file `coupled_tank`.
 - Run the main code in serial with `python3 coupled_tank.py`.
@@ -12,7 +12,7 @@ This repository contains the source code for a **coupled numerical wavetank (NWT
 - Simulations can also fail when waves begin to overturn in the shallow-water domain.
   - In this case, try reducing the wavemaker amplitude or stopping the wavemaker motion earlier.
 
-## Visualisation of the waves with *ParaView*  
+## 📊 Visualisation of the waves with ParaView  
 
 ### Output files  
 The solver saves several `.pvd` files for visualising wave motion in the coupled numerical wavetank:  
