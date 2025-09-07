@@ -3,7 +3,7 @@ This repository contains the source code for a **coupled numerical wavetank (NWT
 
 ## ⚙️ Simulation instructions
 - Set the simulation parameters in `settings.py`.
-- Adjust the length of the dry beach through the coefficient `margin` in the main file `coupled_tank`.
+- The length of the dry beach can be adjusted through the variable `margin` in `settings.py`.
 - Run the main code in serial with `python3 coupled_tank.py`.
 
 ### Notes 
